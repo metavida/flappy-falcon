@@ -1,27 +1,31 @@
-<!DOCTYPE html>
-<html lang="en">
-  <head>
-    <title>Hello!</title>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    
-    <!-- import the webpage's stylesheet -->
-    <link rel="stylesheet" href="/style.css">
-    
-    <!-- import the webpage's javascript file -->
-    <script src="/script.js" defer></script>
-  </head>  
-  <body>
-    <h1>Hi there!</h1>
-    
-    <p>
-      I'm your cool new webpage. Made with <a href="https://glitch.com">Glitch</a>!
-    </p>
+<!doctype html>
+<html>
+    <head>
+        <title>Flappy Falc&oacute;n</title>
+        <meta name="viewport" content="width=device-width, user-scalable=no">
+        <meta name="apple-mobile-web-app-capable" content="yes">
+        <link rel="apple-touch-icon" href="assets/icon.png">
+        <link rel="apple-touch-icon" sizes="120x120" href="assets/icon-120.png">
+        <style>
+            body {
+                background: #abc;
+                margin: 0;
+                padding: 0;
+            }
+            #screen {
+                margin: 0 auto;
+                max-height:700px;
+                max-width:700px;
+                position: relative;
+                overflow: hidden;
 
-    <!-- include the Glitch button to show what the webpage is about and
-          to make it easier for folks to view source and remix -->
-    <div class="glitchButton" style="position:fixed;top:20px;right:20px;"></div>
-    <script src="https://button.glitch.me/button.js"></script>
-  </body>
+            }
+            </style>
+        </style>
+    </head>
+    <body>
+        <div id="screen"></div>
+        <script src="phaser.min.js"></script>
+        <script src="script.js"></script>
+    </body>
 </html>
