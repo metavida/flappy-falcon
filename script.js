@@ -45,12 +45,12 @@ var game = new Phaser.Game(
 function preload() {
     var assets = {
         spritesheet: {
-            birdie: ['assets/bryan.png', 100, 50],
-            clouds: ['assets/clouds.png', 128, 64]
+            birdie: ['ahttps://cdn.glitch.com/5355f96c-3d3c-46af-95c8-ed5d414ea320%2Fbryan.png?1525843532228', 100, 50],
+            clouds: ['https://cdn.glitch.com/5355f96c-3d3c-46af-95c8-ed5d414ea320%2Fclouds.png?1525843532069', 128, 64]
         },
         image: {
-            finger: ['assets/finger.png'],
-            fence: ['assets/fence.png']
+            finger: ['https://cdn.glitch.com/5355f96c-3d3c-46af-95c8-ed5d414ea320%2Ffinger.png?1525843532604'],
+            fence: ['https://cdn.glitch.com/5355f96c-3d3c-46af-95c8-ed5d414ea320%2Ffence.png?1525843532486']
         }/*,
         audio: {
             flap: ['assets/flap.wav'],
